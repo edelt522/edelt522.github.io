@@ -1,52 +1,79 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-<style>
-body {
-    background: LightBlue;
-    font-family: Times New Roman;
-}  
-#content {
-    background: lightyellow;
-    min-width: 200px;
-    max-width: 500px;
-    padding: 50px;
-    margin: auto;
-    margin-top: -50px;
-    line-height: 150%;
-}
-h1 {
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-align: center;
-}
-h2 {
-    font-size: 14px;
-    text-align: center;
-}
-h3 {
-    font-size: 12px;
-}
-</style>
-</head>    
-<body>
-    <div id="content">
-        <h1>Erin Hall</h1>
-        <h2>Senior in Greenville, South Carolina</h2>
-        
-         <p>I am a Senior at Bob Jones University studying English with a minor in 
-            film. I work for BJU Press as a student proofreader.</p>
-         <p>
-            I attend Hampton Park Baptist Church in Greenville. My favorite website is
-            <a href="https://www.greenvillehumane.com/">here</a>.
-         </p> 
-         <p>
-            I enjoy reading books and spending time with my husband, Ethan.
-         </p>
-        <h3>Favorite Books</h3>
-        Les Miserables<br />
-        Till We Have Faces<br />
-        Of Mice and Men<br />
-       
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Downtown Coffee Roasters</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
+    <link rel="stylesheet" href="assets/css/Newsletter-Subscription-Form.css">
+</head>
+
+<body style="background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(81,50,39,0.65) 89%), url(&quot;assets/img/bg.jpg&quot;);">
+    <h1 class="text-center text-white d-none d-lg-block site-heading"><span class="text-primary site-heading-upper mb-3">&nbsp;</span><span class="site-heading-lower">Downtown Coffee Roasters</span></h1>
+    <nav class="navbar navbar-light navbar-expand-lg bg-dark py-lg-4" id="mainNav">
+        <div class="container"><a class="navbar-brand text-uppercase d-lg-none text-expanded" href="#">Downtown Coffee Roasters</a><button data-toggle="collapse" data-target="#navbarResponsive" class="navbar-toggler" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div
+                class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="nav navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="store.html">Store</a></li>
+                </ul>
+        </div>
+        </div>
+    </nav>
+    <section class="page-section clearfix">
+        <div class="container">
+            <div class="intro"><img class="img-fluid intro-img mb-3 mb-lg-0 rounded" src="assets/img/intro.jpg">
+                <div data-bs-hover-animate="bounce" class="intro-text left-0 text-centerfaded p-5 rounded bg-faded text-center">
+                    <h2 class="section-heading mb-4"><span class="section-heading-upper">Fresh Coffee</span><span class="section-heading-lower"><em>Worth Tasting.</em></span></h2>
+                    <p class="mb-3">Every mug of our quality artisan coffee starts with internationally sourced, hand picked ingredients. Once you try it, our coffee will be an important addition to your&nbsp; morning routine.</p>
+                    <div class="mx-auto intro-button"><a class="btn btn-primary d-inline-block mx-auto btn-xl" role="button" href="#" style="background: rgb(98,67,28);">Visit Us!</a></div>
+                </div>
+            </div>
+        </div>
+    </section><img src="assets/img/about.jpg">
+    <div data-aos="slide-up" class="newsletter-subscribe">
+        <div class="container">
+            <div class="intro">
+                <h2 class="text-center">Subscribe for our Newsletter</h2>
+                <p class="text-center">To hear the latest about sustainably sourced coffee from all over the world, and what we're doing to save the planet, sign up for our newsletter below!</p>
+            </div>
+            <form class="form-inline" method="post">
+                <div class="form-group"><input class="form-control" type="email" name="email" placeholder="Your Email"></div>
+                <div class="form-group"><button class="btn btn-light btn-block border-dark visible" type="submit"><em>Subscribe </em></button></div>
+            </form>
+        </div>
     </div>
+    <section class="page-section cta" style="background: rgba(101,57,0,0.9);">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto">
+                    <div class="cta-inner text-center rounded">
+                        <h2 class="section-heading mb-4"><span class="section-heading-upper">Our Mission</span></h2>
+                        <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. Let us know below
+                            how we're doing!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer text-faded text-center py-5"><button class="btn btn-primary" type="button"><strong>Contact Us!</strong></button>
+        <div class="container">
+            <p class="m-0 small">Copyright&nbsp;©&nbsp;Downtown Coffee Roasters 2024</p>
+        </div>
+    </footer>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="assets/js/current-day.js"></script>
 </body>
+
 </html>
